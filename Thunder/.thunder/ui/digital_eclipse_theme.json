@@ -1,0 +1,53 @@
+{
+  "mainWindow": "#0A0A0A",
+  "titlebar": "#1E1E28",
+  "windowControlButtonsbk": "#1C1C25",
+  "windowControlButtonstc": "#F0E9D2",
+  "hoverButtonColor": "#403F4C",
+  "hoverWindowColorbk": "#1A1A24",
+  "hoverWindowColortc": "#FFFADE",
+
+  "menucolorbk": "#1C1C25",
+  "menucolortc": "#D6D6D6",
+  "menucolorhoverbk": "#292938",
+  "menucolorhovertc": "#F5F5F5",
+  "hoverwindowhighlightline": "#FFD369",
+
+  "filetabContainer": "#0F0F14",
+  "filetabbk": "#1C1C25",
+  "filetabtc": "#C0C0C0",
+  "filetabhoverbk": "#292938",
+  "filetabhovertc": "#FFD369",
+
+  "scrollbarbk": "#1C1C25",
+  "scrollbarthumb": "#474761",
+
+  "editorbk": "#0A0A0A",
+  "editortc": "#E0E0E0",
+  "editorSelectedLinebk": "#1F1F2E",
+  "editorSelectedTextbk": "#3D3D55",
+
+  "autoCompleteOptionbk": "#1C1C25",
+  "autoCompleteOptiontc": "#C0C0C0",
+  "autoCompleteOptionHoverbk": "#2C2C3D",
+  "autoCompleteOptionHovertc": "#FFD369",
+
+  "miniCodeViewerbk": "#15151D",
+  "miniCodeViewertc": "#C0C0C0",
+
+  "fileExplorerBk": "#101017",
+  "fileExplorerItemBk": "#1A1A24",
+  "fileExplorerItemTc": "#C8C8C8",
+  "fileExplorerHoverItemBk": "#292938",
+  "fileExplorerHoverItemTc": "#FFD369",
+  "fileExplorerItemSelectedBk": "#3C3C4F",
+  "fileExplorerItemSelectedTc": "#FFFFFF",
+
+  "inputWindowBk": "#14141C",
+  "inputWindowTc": "#EDEDED",
+
+  "contextMenuBk": "#1C1C25",
+  "contextMenuTc": "#C0C0C0",
+  "contextMenuHighLightBk": "#FFD369",
+  "contextMenuHighLightTc": "#1A1A24"
+}

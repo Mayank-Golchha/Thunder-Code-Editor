@@ -1,0 +1,10 @@
+1.) animation frame format should be png
+
+2.) to show animation save all frames in no
+eg : no1.png,no2.png
+
+3.) all nos should be continuous
+i.e no1.png,no3.png -> here no2.png is missing -> this is not allowed
+
+4.) if you are setting animation for mouse click than remember that you have manualy find correct x_offset and y_offset for every animation
+i.e when u click the image may go either left/right top/bottom above click

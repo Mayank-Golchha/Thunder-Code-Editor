@@ -1,0 +1,3 @@
+plugin_name.cpp -> is responsible to return color tokens and also return autocomplete code
+
+bug : may not support multiline tokens 

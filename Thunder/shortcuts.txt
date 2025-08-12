@@ -1,0 +1,5 @@
+ctrl + c                           -------->                   copy line / copy selected text
+ctrl + x                           -------->                   delete line / delete selected text
+ctrl + a                           -------->                   select all text
+ctrl + s                           -------->                   will save content
+shift + f10                        -------->                   will run the current file in the terminal

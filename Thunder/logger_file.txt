@@ -1,0 +1,8 @@
+[2025-08-05 18:05:26] [INFO] : Editor created
+[2025-08-05 18:05:26] [INFO] : plugin loading
+[2025-08-05 18:05:26] [INFO] : plugin loaded
+[2025-08-05 18:05:26] [INFO] : Extensions/auto_pair.dll Extension loaded
+[2025-08-05 18:05:26] [INFO] : Extensions/CFunctionDoc.dll Extension loaded
+[2025-08-05 18:05:40] [INFO] : plugin loading
+[2025-08-05 18:05:40] [INFO] : plugin loaded
+[2025-08-05 18:08:07] [INFO] : Editor closed

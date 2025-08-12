@@ -1,0 +1,4 @@
+1.) when clicked somewhere highlight the word and same words
+2.) add flowchart feature
+3.) add a dead code finder -> the code that is of no use
+4.) identify all todos and do something

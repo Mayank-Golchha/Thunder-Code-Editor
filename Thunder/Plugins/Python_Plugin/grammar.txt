@@ -1,0 +1,37 @@
+##########  EXPRESSION  ###########
+expression         ::=    <term> + <op_e>
+op_e               ::=    OPERATOR + <term> + <op_e> | NONE
+term               ::=    LPARENTHESIS + <expression> + RPAREN | <built_in_data_structure> | IDENTIFIER | IDENTIFIER + LPARENTHESIS + <parameters> + RPARENTHESIS | NUMBER | STRING 
+
+
+##########  LIST  ###########
+list_expression    ::=    LSQBRACKET + <expression> + <comma_exp> + RSQBRACKET 
+comma_exp          ::=    COMMA + <expression> + <comma_exp> | NONE
+
+
+##########  TUPLE  ###########
+tuple_expression    ::=    LPARENTHESIS + <expression> + <comma_exp> + RPARENTHESIS 
+
+
+
+##########  SET  ###########
+set_expression    ::=    LBRACKET + <expression> + <comma_exp> + RSQBRACKET
+
+
+
+##########  BUILT IN DATA STRUCTURE  ###########
+built_in_data_structure  :: <list_expression> | <set_expression> | <tuple_expression>
+
+
+
+##########  FUNCTION  ###########
+function           ::=    def + IDENTIFIER + LPARENTHESIS + parameters + RPARENTHESIS + COLON
+parameters         ::=    IDENTIFIER + comma_id | NONE
+comma_id           ::=    COMMA + IDENTIFIER + <comma_id> | NONE
+
+
+
+##########  VARIABLE  ###########
+variable           ::=    id_eq + expression
+variable           ::=    IDENTIFIER + EQUAL + <variable> | <expression>
+id_eq              ::=    IDENTIFIER + EQUAL + id_eq | NONE

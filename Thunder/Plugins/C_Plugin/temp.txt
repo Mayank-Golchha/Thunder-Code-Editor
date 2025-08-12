@@ -1,0 +1,131 @@
+const char* gemma_extension_api = R"(
+
+Extension API Specification for Gemma
+
+This document defines how extensions can interact with the editor using a simplified API suitable for LLMs like Gemma.
+
+What Can an Extension Do?
+- Detect typed characters
+- Detect mouse movements
+- Add items to the context menu (right-click)
+- Respond when context menu items are clicked
+- Access and modify the text in the editor
+- Move the caret (cursor) in the text
+- Log information
+- Change editor themes
+
+Event Registration (Hooks)
+
+registerCharTypedCallback(func)
+    Run func(char) when a character is typed
+
+registerOnMouseMoveCallback(func)
+    Run func(position) when the mouse moves inside the editor
+
+registerOnEditorContextMenuCreate(func)
+    Called before showing the context menu; lets you add items
+
+registerOnEditorContextMenuClick(func)
+    Called when a context menu item is clicked
+
+Text and Cursor Functions
+
+insertText(text, x, y)
+    Insert text at (x, y). Must call updateEditorContent() to reflect change
+    x,y are not relative positions
+
+updateEditorContent()
+    Redraw the editor after changes
+
+getEditorContent()
+    Get all lines of code as a list of strings
+
+getCaretPosition()
+    Get current cursor (caret) position as (x, y)
+
+setCaretPosition(x, y)
+    Move cursor to the given position
+
+Mouse Position Helpers
+
+MouseToCursor(mousePos)
+    Convert screen coordinates to editor (x, y)
+
+CursorToAppPosition(editorPos)
+    Convert editor (x, y) to screen (pixel) position
+
+File Information
+
+getCurrentFilePath()
+    Full path of the file being edited
+
+getCurrentFileExtension()
+    File type, e.g., "cpp", "txt"
+
+saveFile(path, content)
+    Save given content to file
+
+Theme and Appearance
+
+setEditorTheme(path)
+    Apply theme using a .json file
+
+getFontWidth()
+    Width of one character in pixels
+
+getLineHeight()
+    Height of one text line in pixels
+
+Context Menu Integration
+
+newContextMapItem(name, id)
+    Create a context menu item
+
+InsertEditorContextMenuItem(items, item)
+    Add an item to the context menu
+
+Logging
+
+info_log(message)
+    Logs a message for info
+
+warning_log(message)
+    Logs a warning
+
+error_log(message)
+    Logs an error
+
+Example Extension
+
+extern "C" __declspec(dllexport) void RegisterExtension(EditorAPI* api) {
+    api->registerCharTypedCallback([](wchar_t ch) {
+        if (ch == '{') {
+            api->info_log("Opening brace typed");
+        }
+    });
+}
+
+JSON Summary for AI
+
+{
+  "events": ["charTyped", "mouseMove", "contextMenuCreate", "contextMenuClick"],
+  "actions": [
+    "insertText(x, y, text)",
+    "updateEditorContent()",
+    "setCaretPosition(x, y)",
+    "getCaretPosition()",
+    "getEditorContent()",
+    "saveFile(path, content)",
+    "getCurrentFileExtension()",
+    "getCurrentFilePath()",
+    "setEditorTheme(path)",
+    "log(message, level)"
+  ],
+  "contextMenu": {
+    "newItem(name, id)": "Create new menu item",
+    "addItem(item)": "Add item to context menu",
+    "onClick(wparam, lparam)": "Handle clicks"
+  }
+}
+
+)";

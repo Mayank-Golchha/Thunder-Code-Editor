@@ -1,0 +1,15 @@
+##########  EXPRESSION  ###########
+expression         ::=    <term> + <op_e>
+op_e               ::=    OPERATOR + <term> + <op_e> | NONE
+term               ::=    LPARENTHESIS + <expression> + RPARENTHESIS | NUMBER | STRING | CHAR
+
+
+##########  VARIABLE  ###########
+variable             ::=    <variable_dec> + SEMICOLON
+variable_dec         ::=    <data_type> + <variable_assignment> + <multiple_var_dec>
+variable_assignment  ::=    IDENTIFIER + <equal_value>
+multiple_var_dec     ::=    COMMA + <variable_assignment>
+equal_value          ::=    EQUAL + <expression> | NONE
+
+
+##########  FUNCTION  ###########

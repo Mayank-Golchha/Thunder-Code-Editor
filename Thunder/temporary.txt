@@ -1,0 +1,56 @@
+//to make a messagebox
+int MessageBoxEx(
+  [in, optional] HWND   hWnd,                 //handle of parent window
+  [in, optional] LPCSTR lpText,               //string inside box
+  [in, optional] LPCSTR lpCaption,            //title string
+  [in]           UINT   uType,                //MB styles
+  [in]           WORD   wLanguageId           //default = 0
+);
+
+eg : MessageBoxEx(hmainWindow,L"HELLO",L"WORLD",MB_HELP,0);
+
+//to get dimension of a window
+BOOL GetClientRect(
+  [in]  HWND   hWnd,                          //handle of window
+  [out] LPRECT lpRect                         //pointer of RECT struct -> will get filled
+);
+//coor to top left will be rect.left,rect.top
+
+
+//to change dimensions of a window
+BOOL MoveWindow(
+  [in] HWND hWnd,                            //handle of a window
+  [in] int  X,                              
+  [in] int  Y,
+  [in] int  nWidth,
+  [in] int  nHeight,
+  [in] BOOL bRepaint                        //1 for sending the wm_paint message and 0 for not sending it
+);
+
+
+//to get the mouse coordinates
+BOOL GetCursorPos(
+  &POINT                                   //pointer of POINT struct
+)
+
+//to send a wm_paint message again
+BOOL InvalidateRect(
+  [in] HWND       hWnd,
+  [in] const RECT *lpRect,                 //NULL if no rect
+  [in] BOOL       bErase                   //TRUE
+);
+
+
+//use of WM_NICHHITEST
+WM_NCHITTEST is a window message in Microsoft Windows that determines which part of a window a specific point on the screen 
+corresponds to.
+Common return values:
+HTCLIENT: The mouse is in the client area of the window. 
+HTCAPTION: The mouse is in the title bar. 
+HTBORDER: The mouse is in the window's border. 
+HTLEFT, HTRIGHT, HTTOP, HTBOTTOM: The mouse is on the edge of the window, allowing for resizing. 
+HTCLOSE: The mouse is on the close button. 
+HTTRANSPARENT: The window should be skipped when determining which window is under the point. 
+
+
+//if hmenu id is passed to a custom made window then it will not be made

@@ -1,0 +1,2 @@
+// #define TEXT_COLOR RGB(100,30,200)
+#define TEXT_COLOR RGB(100,100,100)
