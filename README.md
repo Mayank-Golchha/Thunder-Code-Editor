@@ -45,7 +45,7 @@ Currently **under development**, but already packed with features that make it s
 
 | Theme Example | Syntax Highlighting | Editor in Action |
 |---------------|--------------------|------------------|
-| ![Theme Example](assets/image1.png) | ![Syntax Highlighting](assets/image2.png) | ![Editor in Action](assets/image3.png) |
+| ![Theme Example](asset/image1.png) | ![Syntax Highlighting](asset/image2.png) | ![Editor in Action](asset/image3.png) |
 
 *(Replace the above paths with your actual screenshot file names)*
 
