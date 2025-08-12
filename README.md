@@ -88,3 +88,40 @@ Example theme snippet:
 }
 
 
+---
+
+## 🚧 Development Status
+
+Thunder Code Editor is **under active development**.  
+Some planned features include:
+- Multi-tab editing.
+- More language parsers.
+- Plugin marketplace.
+- Advanced debugging tools.
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 💡 Contributing
+
+Contributions are welcome!  
+- Fork the repository.
+- Create your feature branch (`git checkout -b feature/AmazingFeature`).
+- Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+- Push to the branch (`git push origin feature/AmazingFeature`).
+- Open a pull request.
+
+---
+
+## 📬 Contact
+
+**Author:** Mayank Golchha  
+**GitHub:** [Mayank-Golchha](https://github.com/Mayank-Golchha)  
+**Repo:** [Thunder Code Editor](https://github.com/Mayank-Golchha/Thunder-Code-Editor)
+
+
