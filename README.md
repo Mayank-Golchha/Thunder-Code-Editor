@@ -53,10 +53,14 @@ Currently **under development**, but already packed with features that make it s
 
 ## 📸 Screenshots
 
-| Theme Example | Syntax Highlighting | Editor in Action |
-|---------------|--------------------|------------------|
-| ![Theme Example](asset/image1.png) | ![Syntax Highlighting](asset/image2.png) | ![Editor in Action](asset/image3.png) |
+### Theme Example
+![Theme Example](asset/image1.png)
 
+### Syntax Highlighting
+![Syntax Highlighting](asset/image2.png)
+
+### Editor in Action
+![Editor in Action](asset/image3.png)
 ---
 
 ## 📦 Extension API
