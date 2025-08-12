@@ -23,6 +23,16 @@ Currently **under development**, but already packed with features that make it s
 - **Multiple Themes**  
   Supports a variety of themes through JSON-based configuration files.
 
+- **File Explorer**
+  - Navigate project directories directly within the editor.
+  - Smooth expand/collapse animations.
+
+- **Cool Animations**
+  - Smooth animations on clicking the editor.
+  - Smooth animation on clicking the file explorer.
+
+- **Mini Code Viewer** for quick peeks at file contents.
+
 - **Extension API**  
   Developers can create extensions to add new functionality, language support, or custom commands.
 
@@ -76,3 +86,5 @@ Example theme snippet:
     "syntaxKeywords": "#ffcc66",
     "syntaxStrings": "#99cc99"
 }
+
+
