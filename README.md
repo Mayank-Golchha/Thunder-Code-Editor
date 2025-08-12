@@ -86,7 +86,7 @@ Example theme snippet:
     "syntaxKeywords": "#ffcc66",
     "syntaxStrings": "#99cc99"
 }
-
+```
 
 ---
 
