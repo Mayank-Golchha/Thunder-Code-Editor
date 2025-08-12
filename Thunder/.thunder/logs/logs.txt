@@ -1,7 +1,20 @@
-[2025-08-12 18:42:11] [INFO] : Editor created
-[2025-08-12 18:42:11] [INFO] : plugin loading
-[2025-08-12 18:42:11] [INFO] : plugin loaded
-[2025-08-12 18:42:11] [INFO] : Extensions/auto_pair.dll Extension loaded
-[2025-08-12 18:42:11] [INFO] : Extensions/CFunctionDoc.dll Extension loaded
-[2025-08-12 18:42:11] [INFO] : Extensions/html_tag_completer.dll Extension loaded
-[2025-08-12 18:42:15] [INFO] : Editor closed
+[2025-08-12 19:22:54] [INFO] : Editor created
+[2025-08-12 19:22:54] [INFO] : plugin loading
+[2025-08-12 19:22:54] [INFO] : plugin loaded
+[2025-08-12 19:22:55] [INFO] : Extensions/auto_pair.dll Extension loaded
+[2025-08-12 19:22:55] [INFO] : Extensions/CFunctionDoc.dll Extension loaded
+[2025-08-12 19:22:55] [INFO] : Extensions/html_tag_completer.dll Extension loaded
+[2025-08-12 19:22:58] [INFO] : plugin loading
+[2025-08-12 19:22:58] [INFO] : plugin loaded
+[2025-08-12 19:23:00] [INFO] : plugin loading
+[2025-08-12 19:23:00] [INFO] : plugin loaded
+[2025-08-12 19:23:04] [INFO] : plugin loading
+[2025-08-12 19:23:04] [INFO] : plugin loaded
+[2025-08-12 19:23:06] [INFO] : plugin loading
+[2025-08-12 19:23:06] [INFO] : plugin loaded
+[2025-08-12 19:23:43] [INFO] : plugin loading
+[2025-08-12 19:23:43] [INFO] : plugin loaded
+[2025-08-12 19:23:55] [INFO] : plugin loading
+[2025-08-12 19:23:55] [INFO] : plugin loaded
+[2025-08-12 19:23:58] [INFO] : plugin loading
+[2025-08-12 19:23:58] [INFO] : plugin loaded
