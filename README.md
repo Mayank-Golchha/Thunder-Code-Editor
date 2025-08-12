@@ -47,8 +47,6 @@ Currently **under development**, but already packed with features that make it s
 |---------------|--------------------|------------------|
 | ![Theme Example](asset/image1.png) | ![Syntax Highlighting](asset/image2.png) | ![Editor in Action](asset/image3.png) |
 
-*(Replace the above paths with your actual screenshot file names)*
-
 ---
 
 ## 📦 Extension API
