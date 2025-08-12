@@ -1,2 +1,80 @@
-# Thunder-Code-Editor
-Thunder Code Editor – Fast, lightweight, and extensible multi-language editor for Windows. Built in C++ with GDI+ for smooth rendering, it supports C, C++, Python, and JSON out of the box, with extensions for new features, languages, and themes — all without the bloat of traditional IDEs.
+# Thunder Code Editor
+
+Thunder Code Editor is a **lightweight, blazing-fast code editor** built entirely in **C++** using the **Win32 API** and **GDI+** for rendering.  
+It’s designed for speed, extensibility, and customization — with support for themes, syntax highlighting, and an extension API.  
+Currently **under development**, but already packed with features that make it stand out.
+
+---
+
+## 🚀 Features
+
+- **Custom Win32 & GDI+ Rendering**  
+  No heavy frameworks — the UI is handcrafted using raw Windows API calls and GDI+ for crisp text rendering.
+
+- **Custom JSON Parser**  
+  The editor includes its own **JSON parsing engine** for lightning-fast configuration and theme loading.
+
+- **Custom Python Parser**  
+  A custom parser for Python syntax is built-in, enabling efficient and accurate syntax highlighting.
+
+- **Syntax Highlighting**  
+  Highlight code in multiple languages with customizable color schemes.
+
+- **Multiple Themes**  
+  Supports a variety of themes through JSON-based configuration files.
+
+- **Extension API**  
+  Developers can create extensions to add new functionality, language support, or custom commands.
+
+- **Lightweight and Fast**  
+  Designed with performance in mind — minimal memory usage, instant load times.
+
+---
+
+## 🛠️ Technologies Used
+
+- **C++** — Core logic and performance-critical features.
+- **Win32 API** — For creating and managing native Windows application windows.
+- **GDI+** — For drawing text, UI elements, and handling colors.
+- **Custom JSON Parser** — Written from scratch in C++ for high-speed configuration parsing.
+- **Custom Python Parser** — For Python syntax analysis and highlighting.
+
+---
+
+## 📸 Screenshots
+
+| Theme Example | Syntax Highlighting | Editor in Action |
+|---------------|--------------------|------------------|
+| ![Theme Example](assets/image1.png) | ![Syntax Highlighting](assets/image2.png) | ![Editor in Action](assets/image3.png) |
+
+*(Replace the above paths with your actual screenshot file names)*
+
+---
+
+## 📦 Extension API
+
+Thunder comes with an **Extension API** that allows developers to:
+- Add **new language parsers**
+- Modify **syntax highlighting rules**
+- Add **custom commands**
+- Create **theme packs**
+
+Extensions are loaded dynamically and can interact with the editor’s core.
+
+---
+
+## 🎨 Themes
+
+Themes are **JSON-based** and control:
+- Background colors
+- Syntax colors
+- UI element styling
+
+Example theme snippet:
+```json
+{
+    "mainWindow": "#0a0a0a",
+    "titlebar": "#0e0e0e",
+    "syntaxKeywords": "#ffcc66",
+    "syntaxStrings": "#99cc99"
+}
