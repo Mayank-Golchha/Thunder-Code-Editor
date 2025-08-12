@@ -78,7 +78,7 @@ Themes are **JSON-based** and control:
 - Syntax colors
 - UI element styling
 
-Example theme snippet:
+Example theme customizing:
 ```json
 {
   "mainWindow": "#0a0a0a",
