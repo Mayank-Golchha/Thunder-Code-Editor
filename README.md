@@ -1,66 +1,83 @@
-# Thunder Code Editor
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=F162F6&width=420&lines=Thunder+Code+Editor;Blazing-fast,+Handcrafted+Code+Editor;C%2B%2B+%7C+Win32+%7C+GDI%2B" alt="Typing SVG" />
+  <br>
+  <img src="https://cdn.jsdelivr.net/gh/Mayank-Golchha/Thunder-Code-Editor/asset/thunder-hero.gif" width="480" alt="Thunder Hero Animation"/>
+  <br>
+  <img src="https://img.shields.io/badge/Made%20With-%E2%9D%A4-f162f6?style=for-the-badge" />
+  <img src="https://img.shields.io/github/license/Mayank-Golchha/Thunder-Code-Editor?style=for-the-badge" />
+  <img src="https://img.shields.io/github/stars/Mayank-Golchha/Thunder-Code-Editor?style=for-the-badge" />
+</div>
 
-Thunder Code Editor is a **lightweight, blazing-fast code editor** built entirely in **C++** using the **Win32 API** and **GDI+** for rendering.  
-It’s designed for speed, extensibility, and customization — with support for themes, syntax highlighting, and an extension API.  
+---
+
+## ⚡ Thunder Code Editor
+
+Thunder Code Editor is a **lightweight, blazing-fast code editor** built entirely in **C++** using the **Win32 API** and **GDI+** for rendering.<br>
+It’s designed for speed, extensibility, and customization — with support for themes, syntax highlighting, and an extension API.<br>
 Currently **under development**, but already packed with features that make it stand out.
 
 ---
 
 ## 🚀 Features
 
-- **Custom Win32 & GDI+ Rendering**  
-  No heavy frameworks — the UI is handcrafted using raw Windows API calls and GDI+ for crisp text rendering.
-
-- **Custom JSON Parser**  
-  The editor includes its own **JSON parsing engine** for lightning-fast configuration and theme loading.
-
-- **Custom Python Parser**  
-  A custom parser for Python syntax is built-in, enabling efficient and accurate syntax highlighting.
-
-- **Syntax Highlighting**  
-  Highlight code in multiple languages with customizable color schemes.
-
-- **Multiple Themes**  
-  Supports a variety of themes through JSON-based configuration files.
-
-- **File Explorer**
-  - Navigate project directories directly within the editor.
-  - Smooth expand/collapse animations.
-
-- **Cool Animations**
-  - Smooth animations on clicking the editor.
-  - Smooth animation on clicking the file explorer.
-
-- **Mini Code Viewer** for quick peeks at file contents.
-
-- **Extension API**  
-  Developers can create extensions to add new functionality, language support, or custom commands.
-
-- **Lightweight and Fast**  
-  Designed with performance in mind — minimal memory usage, instant load times.
+<table>
+  <tr>
+    <td><img src="https://cdn.jsdelivr.net/gh/Mayank-Golchha/Thunder-Code-Editor/asset/feature-anim.gif" width="180"/></td>
+    <td>
+      <ul>
+        <li><b>Custom Win32 & GDI+ Rendering</b><br>
+          No heavy frameworks — the UI is handcrafted using raw Windows API calls and GDI+ for crisp text rendering.
+        </li>
+        <li><b>Custom JSON Parser</b><br>
+          The editor includes its own <b>JSON parsing engine</b> for lightning-fast configuration and theme loading.
+        </li>
+        <li><b>Custom Python Parser</b><br>
+          Efficient and accurate syntax highlighting for Python.
+        </li>
+        <li><b>Syntax Highlighting</b><br>
+          Highlight code in multiple languages with customizable color schemes.
+        </li>
+        <li><b>Multiple Themes</b><br>
+          JSON-based theme files let you style every aspect of the editor.
+        </li>
+        <li><b>File Explorer</b><br>
+          - Navigate project directories directly.<br>
+          - Smooth expand/collapse animations.
+        </li>
+        <li><b>Cool Animations</b><br>
+          - Smooth transitions on click.<br>
+          - Animated file explorer and editor actions.
+        </li>
+        <li><b>Mini Code Viewer</b> for quick file peeks.</li>
+        <li><b>Extension API</b> for adding new languages, commands, and features.</li>
+        <li><b>Lightweight & Fast</b> — minimal memory, instant load.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **C++** — Core logic and performance-critical features.
-- **Win32 API** — For creating and managing native Windows application windows.
-- **GDI+** — For drawing text, UI elements, and handling colors.
-- **Custom JSON Parser** — Written from scratch in C++ for high-speed configuration parsing.
-- **Custom Python Parser** — For Python syntax analysis and highlighting.
+<p align="center">
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Win32%20API-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/GDI%2B-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Custom%20JSON%20Parser-yellow?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Python%20Parser-purple?style=for-the-badge"/>
+</p>
 
 ---
 
 ## 📸 Screenshots
 
-### Theme Example
-![Theme Example](asset/image1.png)
+<div align="center">
+  <img src="asset/image1.png" width="340" alt="Theme Example"/>
+  <img src="asset/image2.png" width="340" alt="Syntax Highlighting"/>
+  <img src="asset/image3.png" width="340" alt="Editor in Action"/>
+</div>
 
-### Syntax Highlighting
-![Syntax Highlighting](asset/image2.png)
-
-### Editor in Action
-![Editor in Action](asset/image3.png)
 ---
 
 ## 📦 Extension API
@@ -82,74 +99,77 @@ Themes are **JSON-based** and control:
 - Syntax colors
 - UI element styling
 
-Example theme customizing:
-```json
-{
-  "mainWindow": "#0a0a0a",
-  "titlebar": "#1a1a2e",
-  "windowControlButtonsbk": "#0d1117",
-  "windowControlButtonstc": "#44d9ff",
-  "hoverButtonColor": "#00c3ff",
-  "hoverWindowColorbk": "#11111b",
-  "hoverWindowColortc": "#00eaff",
+<details>
+  <summary>Example theme customizing</summary>
 
-  "menucolorbk": "#0e0e12",
-  "menucolortc": "#00c7ff",
-  "menucolorhoverbk": "#1a1c2c",
-  "menucolorhovertc": "#2fe3ff",
+  ```json
+  {
+    "mainWindow": "#0a0a0a",
+    "titlebar": "#1a1a2e",
+    "windowControlButtonsbk": "#0d1117",
+    "windowControlButtonstc": "#44d9ff",
+    "hoverButtonColor": "#00c3ff",
+    "hoverWindowColorbk": "#11111b",
+    "hoverWindowColortc": "#00eaff",
+    "menucolorbk": "#0e0e12",
+    "menucolortc": "#00c7ff",
+    "menucolorhoverbk": "#1a1c2c",
+    "menucolorhovertc": "#2fe3ff",
+    "hoverwindowhighlightline": "#00ffff",
+    "filetabContainer": "#12141c",
+    "filetabbk": "#0f0f0f",
+    "filetabtc": "#26c9ff",
+    "filetabhoverbk": "#1a1f2e",
+    "filetabhovertc": "#55f2ff",
+    "scrollbarbk": "#131313",
+    "scrollbarthumb": "#2fd5ff",
+    "editorbk": "#0a0f15",
+    "editortc": "#c0dfff",
+    "editorSelectedLinebk": "#162030",
+    "editorSelectedTextbk": "#2fb9ff",
+    "autoCompleteOptionbk": "#10151d",
+    "autoCompleteOptiontc": "#37ccff",
+    "autoCompleteOptionHoverbk": "#0e1723",
+    "autoCompleteOptionHovertc": "#60e7ff",
+    "miniCodeViewerbk": "#0a0f18",
+    "miniCodeViewertc": "#00b7ff",
+    "fileExplorerBk": "#0d1015",
+    "fileExplorerItemBk": "#0d1015",
+    "fileExplorerItemTc": "#31cfff",
+    "fileExplorerHoverItemBk": "#1a232e",
+    "fileExplorerHoverItemTc": "#00f0ff",
+    "fileExplorerItemSelectedBk": "#13202d",
+    "fileExplorerItemSelectedTc": "#68efff",
+    "inputWindowBk": "#10151c",
+    "inputWindowTc": "#45dbff",
+    "contextMenuBk": "#11151c",
+    "contextMenuTc": "#44ceff",
+    "contextMenuHighLightBk": "#1d2c3c",
+    "contextMenuHighLightTc": "#8ff6ff"
+  }
+  ```
+</details>
 
-  "hoverwindowhighlightline": "#00ffff",
+---
 
-  "filetabContainer": "#12141c",
-  "filetabbk": "#0f0f0f",
-  "filetabtc": "#26c9ff",
-  "filetabhoverbk": "#1a1f2e",
-  "filetabhovertc": "#55f2ff",
+## 🌀 Cool Animations
 
-  "scrollbarbk": "#131313",
-  "scrollbarthumb": "#2fd5ff",
-
-  "editorbk": "#0a0f15",
-  "editortc": "#c0dfff",
-  "editorSelectedLinebk": "#162030",
-  "editorSelectedTextbk": "#2fb9ff",
-
-  "autoCompleteOptionbk": "#10151d",
-  "autoCompleteOptiontc": "#37ccff",
-  "autoCompleteOptionHoverbk": "#0e1723",
-  "autoCompleteOptionHovertc": "#60e7ff",
-
-  "miniCodeViewerbk": "#0a0f18",
-  "miniCodeViewertc": "#00b7ff",
-
-  "fileExplorerBk": "#0d1015",
-  "fileExplorerItemBk": "#0d1015",
-  "fileExplorerItemTc": "#31cfff",
-  "fileExplorerHoverItemBk": "#1a232e",
-  "fileExplorerHoverItemTc": "#00f0ff",
-  "fileExplorerItemSelectedBk": "#13202d",
-  "fileExplorerItemSelectedTc": "#68efff",
-
-  "inputWindowBk": "#10151c",
-  "inputWindowTc": "#45dbff",
-
-  "contextMenuBk": "#11151c",
-  "contextMenuTc": "#44ceff",
-  "contextMenuHighLightBk": "#1d2c3c",
-  "contextMenuHighLightTc": "#8ff6ff"
-}
-```
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/Mayank-Golchha/Thunder-Code-Editor/asset/editor-animation.gif" width="480" alt="Editor Animation"/>
+  <br>
+  <img src="https://cdn.jsdelivr.net/gh/Mayank-Golchha/Thunder-Code-Editor/asset/file-explorer-animation.gif" width="480" alt="File Explorer Animation"/>
+</div>
 
 ---
 
 ## 🚧 Development Status
 
-Thunder Code Editor is **under active development**.  
-Some planned features include:
-- Multi-tab editing.
-- More language parsers.
-- Plugin marketplace.
-- Advanced debugging tools.
+Thunder Code Editor is **under active development**.<br>
+Planned features:
+- Multi-tab editing
+- More language parsers
+- Plugin marketplace
+- Advanced debugging tools
 
 ---
 
@@ -173,7 +193,17 @@ Contributions are welcome!
 ## 📬 Contact
 
 **Author:** Mayank Golchha  
-**GitHub:** [Mayank-Golchha](https://github.com/Mayank-Golchha)  
+<a href="https://github.com/Mayank-Golchha"><img src="https://img.shields.io/badge/GitHub-Mayank--Golchha-181717?style=for-the-badge&logo=github" /></a>
+<a href="https://www.linkedin.com/in/mayank-golchha-9b2730370/"><img src="https://img.shields.io/badge/LinkedIn-Mayank%20Golchha-blue?style=for-the-badge&logo=linkedin" /></a>
+<br>
 **Repo:** [Thunder Code Editor](https://github.com/Mayank-Golchha/Thunder-Code-Editor)
 
+---
 
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Mayank-Golchha&theme=radical&hide_border=true" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mayank-Golchha&theme=github_dark" />
+</div>
