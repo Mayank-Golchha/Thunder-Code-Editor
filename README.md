@@ -20,41 +20,36 @@ Currently **under development**, but already packed with features that make it s
 
 ## 🚀 Features
 
-<table>
-  <tr>
-    <td><img src="https://cdn.jsdelivr.net/gh/Mayank-Golchha/Thunder-Code-Editor/asset/feature-anim.gif" width="180"/></td>
-    <td>
-      <ul>
-        <li><b>Custom Win32 & GDI+ Rendering</b><br>
-          No heavy frameworks — the UI is handcrafted using raw Windows API calls and GDI+ for crisp text rendering.
-        </li>
-        <li><b>Custom JSON Parser</b><br>
-          The editor includes its own <b>JSON parsing engine</b> for lightning-fast configuration and theme loading.
-        </li>
-        <li><b>Custom Python Parser</b><br>
-          Efficient and accurate syntax highlighting for Python.
-        </li>
-        <li><b>Syntax Highlighting</b><br>
-          Highlight code in multiple languages with customizable color schemes.
-        </li>
-        <li><b>Multiple Themes</b><br>
-          JSON-based theme files let you style every aspect of the editor.
-        </li>
-        <li><b>File Explorer</b><br>
-          - Navigate project directories directly.<br>
-          - Smooth expand/collapse animations.
-        </li>
-        <li><b>Cool Animations</b><br>
-          - Smooth transitions on click.<br>
-          - Animated file explorer and editor actions.
-        </li>
-        <li><b>Mini Code Viewer</b> for quick file peeks.</li>
-        <li><b>Extension API</b> for adding new languages, commands, and features.</li>
-        <li><b>Lightweight & Fast</b> — minimal memory, instant load.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<img src="https://cdn.jsdelivr.net/gh/Mayank-Golchha/Thunder-Code-Editor/asset/feature-anim.gif" width="180" align="right"/>
+
+- **Custom Win32 & GDI+ Rendering**  
+  No heavy frameworks — the UI is handcrafted using raw Windows API calls and GDI+ for crisp text rendering.
+
+- **Custom JSON Parser**  
+  The editor includes its own **JSON parsing engine** for lightning-fast configuration and theme loading.
+
+- **Custom Python Parser**  
+  Efficient and accurate syntax highlighting for Python.
+
+- **Syntax Highlighting**  
+  Highlight code in multiple languages with customizable color schemes.
+
+- **Multiple Themes**  
+  JSON-based theme files let you style every aspect of the editor.
+
+- **File Explorer**
+  - Navigate project directories directly.
+  - Smooth expand/collapse animations.
+
+- **Cool Animations**
+  - Smooth transitions on click.
+  - Animated file explorer and editor actions.
+
+- **Mini Code Viewer** for quick file peeks.
+
+- **Extension API** for adding new languages, commands, and features.
+
+- **Lightweight & Fast** — minimal memory, instant load.
 
 ---
 
@@ -73,9 +68,11 @@ Currently **under development**, but already packed with features that make it s
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="asset/image1.png" width="340" alt="Theme Example"/><br>
-  <img src="asset/image2.png" width="340" alt="Syntax Highlighting"/><br>
-  <img src="asset/image3.png" width="340" alt="Editor in Action"/>
+  <img src="asset/image1.png" alt="Theme Example"/>
+  <br>
+  <img src="asset/image2.png" alt="Syntax Highlighting"/>
+  <br>
+  <img src="asset/image3.png" alt="Editor in Action"/>
 </div>
 
 ---
