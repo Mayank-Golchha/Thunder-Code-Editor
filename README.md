@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=F162F6&width=420&lines=Thunder+Code+Editor;Blazing-fast,+Handcrafted+Code+Editor;C%2B%2B+%7C+Win32+%7C+GDI%2B" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=44D9FF&width=420&lines=Thunder+Code+Editor;Blazing-fast,+Handcrafted+Code+Editor;C%2B%2B+%7C+Win32+%7C+GDI%2B" alt="Typing SVG" />
   <br>
   <img src="https://cdn.jsdelivr.net/gh/Mayank-Golchha/Thunder-Code-Editor/asset/thunder-hero.gif" width="480" alt="Thunder Hero Animation"/>
   <br>
@@ -73,8 +73,8 @@ Currently **under development**, but already packed with features that make it s
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="asset/image1.png" width="340" alt="Theme Example"/>
-  <img src="asset/image2.png" width="340" alt="Syntax Highlighting"/>
+  <img src="asset/image1.png" width="340" alt="Theme Example"/><br>
+  <img src="asset/image2.png" width="340" alt="Syntax Highlighting"/><br>
   <img src="asset/image3.png" width="340" alt="Editor in Action"/>
 </div>
 
