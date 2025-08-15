@@ -147,17 +147,6 @@ Themes are **JSON-based** and control:
   ```
 </details>
 
----
-
-## 🌀 Cool Animations
-
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/Mayank-Golchha/Thunder-Code-Editor/asset/editor-animation.gif" width="480" alt="Editor Animation"/>
-  <br>
-  <img src="https://cdn.jsdelivr.net/gh/Mayank-Golchha/Thunder-Code-Editor/asset/file-explorer-animation.gif" width="480" alt="File Explorer Animation"/>
-</div>
-
----
 
 ## 🚧 Development Status
 
